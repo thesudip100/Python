@@ -36,5 +36,5 @@ print(address[-4:-1])   #--> This is same as address[5:]
 '''We can provide a skip value as a part of our slice. Sometimes, we may want to skip some characters while slicing, so this technique comes handy in such situation. Skip value is given as third argument to the string'''
 
 college="Nepal College of Information Technology"
-print(college[0:10:2])  #---> This will print from index 0 to 9 but even indexes are only printed since skip value is 2.   O/p--> NplCl
+print(college[0:10:1])  #---> This will print from index 0 to 9 but even indexes are only printed since skip value is 2.   O/p--> NplCl
 print(college[::3])     #--> prints from index 0 to last but skip value here is 3.

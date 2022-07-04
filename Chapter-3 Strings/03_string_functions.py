@@ -7,4 +7,7 @@ print(story.count("o"))  #--> counts how many "o" are present in the given strin
 print(story.count("time"))  #--> count not only counts characters but also strings.
 print(story.capitalize())   #makes the first character of the string uppercase
 print(story.find("time"))   # gives the index of the very first word found in string. Here, time occurs two times in above string, but only the starting index of the first word 'time" is given.
+print(story.replace("crow", "piegon"))
+print(story.title())   # makes the first letter of all the words capital
+
 
