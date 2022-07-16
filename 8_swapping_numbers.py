@@ -41,5 +41,5 @@ j,k=k,j #this kind of swapping only works if used in single line, else for multi
 print(j)
 print(k)
 
-How is it able to swap in above line?
-Because solving always starts from right and at first k,j i.e 1,3 will be stored in stack and with the method of rotation, it will be assigned to j and k in the background.
+# How is it able to swap in above line?
+# Because solving always starts from right and at first k,j i.e 1,3 will be stored in stack and with the method of rotation, it will be assigned to j and k in the background.
