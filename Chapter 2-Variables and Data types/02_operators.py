@@ -12,9 +12,10 @@ print("Modulo Division is ",a%b)
 p=43
 p+=2
 print(p)
+q,r=6,7      #multiple assignment; q=6 qnd r=7
 
 
-#COMPARISION OPERATORS (==,>,<,>=,<=,!=)   => returns booleans
+#COMPARISION/Relational OPERATORS (==,>,<,>=,<=,!=)   => returns booleans
 print(a==b) 
 print(a>=b)
 print(a<=b)
@@ -26,3 +27,11 @@ bool2=False
 print(bool1 and bool2)
 print(bool1 or bool2)
 print(not bool1)
+
+data1=5
+data2=6
+print((data1<6)and(data2>7))
+
+#Unary operators
+n=7
+n=-n;   #unary negation; -7
