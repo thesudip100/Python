@@ -29,3 +29,5 @@ else:
     print("wrong entry")
 
 # In if statement, every lines of code will be parsed but in elif statement, not every lines will be parsed. When it finds right one, the code will stop. Here, if we enter 2, it will check till second elif statement only and once it finds x==2, then it will stop the execution. But the case wont have been same when we had used all if statement instead of elif statement. If "if"  statement were used, then even after it finds right answer at x==2, it will still check for x==3 and x==4 which will increase time of code and decrease the speed of the task.
+
+
